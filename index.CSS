@@ -1,0 +1,54 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Verdana;
+}
+.Arte
+{
+    width: 100%; 
+}
+label, h1
+{
+    color:  #39b7dd;
+}
+h5, p
+{
+    color: #B7E9FF ;
+}
+body
+{
+  background: url('Fondo3.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+.Fondo
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+.Recuadro
+{
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.Arte
+{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+.Recuadro
+{
+  flex-direction: column;
+} 
